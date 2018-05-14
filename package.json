@@ -1,0 +1,27 @@
+{
+  "name": "hots-unofficial-api",
+  "version": "1.0.0",
+  "description": "Sorry HotS, but I had to do it!",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "cheerio": "^0.22.0",
+    "request": "^2.85.0",
+    "sanitize": "^2.0.1"
+  },
+  "engines": {
+    "node": "10.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/welcome-project"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
