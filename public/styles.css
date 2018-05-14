@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+html, body {
+  margin: 0;
+  height: 100%;
+  background: #eee;
+}
+body {
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-family: sans-serif;
+  background-image: linear-gradient(-134deg, #3023AE 0%, #C86DD7 100%);
+}
+
+a {
+  font-weight: normal;
+  color: black;
+  text-decoration: none;
+  background: yellow;
+  padding: 4px;
+  border-radius: 2px;
+}
+a:hover, a:focus, a:visited {
+  color: black;
+  text-decoration: none;
+}
+/*
+a:hover:after, a:focus:after {
+  content: "👈";
+  position: absolute;
+  margin-top: -0.3em;
+}
+a:active:after {
+  content: "👌";
+  position:absolute;
+  margin-top: -0.3em;
+}*/
+.container {
+  align-self: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+.logo {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.subtitle{
+  display: block;
+  font-size: 0.6em;
+  text-align: right;
+}
+
+.content {
+  text-align: left;
+}
+
+.list {
+  padding: 0;
+  list-style-type: none;
+}
+.list li {
+  font-weight: bold;
+  margin: 1em 0;
+}
+
+footer {
+  padding: 1em 0;
+  border-top: 1px solid white
+}
+
+/*SVG*/
+.path {
+  stroke-dasharray: 2000;
+  stroke-dashoffset: 2000;
+  animation: dash 5s linear forwards;
+}
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
